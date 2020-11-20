@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&display=swap');
+
+* {
+    /* this will remove the spaces between elements */
+    margin: 0;
+    /* this will remove the spaces inside the elements */
+    padding: 0;
+    /* Make all text black */
+    color: black;
+    box-sizing: border-box;
+    /* remove all lines in input */
+    outline: none;
+    border: none;
+}
+
+.wrapper {
+    /* you need to add this to make sure that the whole webpage will stop getting smaller if it already reach 875px */
+    min-width: 875px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+p,
+input,
+label,
+span,
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Header Area */
+.nav {
+    overflow: auto;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav h1 {
+    width: 50%;
+    float: left;
+}
+
+.nav ul {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: #312A26;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+.nav h1 a {
+    text-transform: capitalize;
+}
+
+/* Banner Area */
+.banner {
+    background-image: url("../images/atf-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    overflow: auto;
+    margin-bottom: 5%;
+}
+
+.banner-text {
+    width: 30%;
+    margin-left: 7.5%;
+    margin-top: 10%;
+}
+
+.banner h2 {
+    color: #312A26;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+}
+
+.banner span {
+    color: #4caf50;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner p {
+    color: #312A26;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.banner a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #312A26;
+    font-weight: 800;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Ads Area */
+.ads {
+    overflow: auto;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+.ads .ads-box {
+    float: left;
+    width: 49.5%;
+    height: 350px;
+}
+
+.ads-text {
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.ads-item1 {
+    background-image: url("../images/merchandise1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #312A26;
+    margin-right: 1%;
+}
+
+.ads-item2 {
+    background-image: url("../images/merchandise2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #312A26;
+}
+
+.ads-item3 {
+    background-color: #312A26;
+    background-image: url("../images/merchandise3.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.ads-item4 {
+    background-color: #312A26;
+    background-image: url("../images/merchandise4.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1%;
+}
+
+.ads-item5 {
+    background-color: #312A26;
+    background-image: url("../images/merchandise5.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 1%;
+}
+
+.ads-item6 {
+    background-color: #312A26;
+    background-image: url("../images/merchandise6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ads-text h3 {
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.ads-text a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* Merchandise Area */
+
+.div-title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.div-title span {
+    color: #c7a17a;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.div-title h2 {
+    color: #312A26;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.div-title hr {
+    background-color: #c7a17a;
+    width: 10%;
+    height: 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.merch {
+    margin-bottom: 5%;
+}
+
+.merch-gallery {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.merch-item {
+    width: 24.25%;
+    float: left;
+}
+
+.item1,
+.item2,
+.item3,
+.item5,
+.item6,
+.item7 {
+    margin-right: 1%;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    margin-bottom: 1%;
+}
+
+.merch-item img {
+    width: 100%;
+}
+
+.merch-item h3{
+    color: #312A26;
+}
+
+.merch-item span {
+    color: #c7a17a;
+}
+
+.merch-item p {
+    color: #c7a17a;
+}
+
+/* ads-big */
+.ads-big {
+    width: 85%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    /* you need to add position, to make sure the child will only move around the parent */
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.ads-big-text {
+    text-align: center;
+    /* you need to add this to move the text around the parent */
+    position: absolute;
+    /* to make it center add from start to end */
+    /* start */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* end */
+}
+
+.ads-big-text span {
+    color: #c7a17a;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.ads-big-text h2 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.ads-big-text a {
+    color: #312A26;
+    background-color: #ffffff;
+    font-weight: 800;
+    display: inline-block;
+    padding: 15px 20px;
+    /* make sure to remove the underline in links */
+    text-decoration: none;
+}
+
+/* Reservation Form */
+
+/* you need to add a style for the whole <div class="reservation"> */
+
+.reservation {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+
+/* for the two classes, you need to float */
+.left,
+.right {
+    float: left;
+    width: 49.5%;
+    background-color: #f2f2f2;
+    /* you need to add padding so they will have space inside the border */
+    padding: 2%;
+    /* add this to make the edges/corners less sharper or make it rounder */
+    /* same with your margin and padding, one value means all corners */
+    border-radius: 5px;
+}
+
+.left {
+    margin-right: 1%;
+}
+
+.res-form label {
+    color: #312A26;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+}
+
+.res-form input,
+.res-form select,
+.res-form textarea {
+    font-family: 'Open sans', sans-serif;
+    color: #312A26;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+/* since radio button and the checkbox needs to be on the same line, I added the display inline.
+To make sure the width will not be 100%, add width:auto; */
+
+#pm,
+#am,
+#agree,
+.res-form .one-line {
+    display: inline;
+    width: auto;
+}
+
+.res-form h3 {
+    color: #312A26;
+    text-align: center;
+}
+
+.res-form p {
+    color: #312A26;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.res-form span {
+    display: block;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 2%;
+    background-color: #4caf50;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+}
+
+/* footer area */
+.footer {
+    background-image: url("../images/footer-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #312A26;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer-content {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.opening,
+.latest-post,
+.contact,
+.location {
+    width: 24.25%;
+    float: left;
+}
+
+.opening,
+.latest-post,
+.contact {
+    margin-right: 1%;
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+}
+
+.opening h3 {
+    color: #ffffff;
+}
+
+.opening th {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.opening td {
+    color: #ffffff;
+    font-family: 'Open sans', sans-serif;
+}
+
+.latest-post h3 {
+    color: #ffffff;
+}
+
+.latest-post h4 {
+    color: #ffffff;
+}
+
+.latest-post p {
+    color: #c7a17a;
+}
+
+.contact h3 {
+    color: #ffffff;
+}
+
+.contact .title2 {
+    margin-top: 15px;
+}
+
+.contact .change-color {
+    color: #c7a17a;
+}
+
+.contact p {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.contact input {
+    color: #312A26;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#search-btn {
+    color: #312A26;
+    background-color: #c7a17a;
+}
+
+.location h3 {
+    color: #ffffff;
+}
+
+.location h4 {
+    color: #c7a17a;
+    margin-top: 15px;
+}
+
+.location p {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* footer 2 area */
+.footer2 {
+    background-color: #000000;
+}
+
+.logo h2 {
+    color: #ffffff;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.copyright p {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.logo,
+.social,
+.copyright {
+    float: left;
+    width: 32%;
+}
+
+.logo,
+.social {
+    margin-right: 2%;
+}
+
+.social {
+    text-align: center;
+}
+
+.copyright {
+    text-align: right;
+}

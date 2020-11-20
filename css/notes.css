@@ -1,0 +1,193 @@
+/* css rules */
+
+/* 1 - using element name */
+p {
+    color: blue;
+}
+
+/* two elements with the same design */
+h1, 
+h2 {
+    color: orange;
+}
+
+/* or */
+
+h1 {
+    color: orange;
+}
+
+h2 {
+    color: orange;
+}
+
+/* if you want to be specific */
+/* this means you want to select the,
+<h1><a> Text </a></h1>
+*/
+/* parent child { */
+h1 a {
+ color: pink;
+}
+
+/* 2 - using classname */
+/* class="merch-item" */
+.merch-item {
+    background-color: orange;
+}
+
+/* 3 - using ID */
+/* id="submit" */
+#submit {
+    background-color: green;
+}
+
+/* * means everything. This is called a universal selector */
+
+/* CSS PROPERTIES */
+/* COLORS */
+
+/* to add background color */
+    /* 1 - colorname */
+    p {
+        background-color: red;
+    }
+    /* 2 - hexcolors/ hexadecimal/hex */
+    p {
+        background-color: #ff0000;
+    }
+    /* 3 - rgb (red, green, blue) */
+    p {
+        background-color: rgb(255, 0, 0);
+    }
+
+/* to add text color */
+    /* 1 - colorname */
+    p {
+        color: red;
+    }
+    /* 2 - hexcolors/ hexadecimal/hex */
+    p {
+        color: #ff0000;
+    }
+    /* 3 - rgb (red, green, blue) */
+    p {
+       color: rgb(255, 0, 0);
+    }
+
+/* To add font-family */
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        /* font-weight: 700 | bold */
+    }
+
+    /* text-transform */
+    h1 {
+        text-transform: uppercase;
+        /* THIS IS THE TEXT */
+    }
+    
+    h1 {
+        text-transform: lowercase;
+        /* this is the text */
+    }
+
+    h1 {
+        text-transform: capitalize;
+        /* This Is The Text */
+    }
+
+/* text-decoration */
+    /* remove the line under the text */
+    a {
+        text-decoration: none;
+    }
+    /* add line under the text*/
+    a {
+        text-decoration: underline;
+    }
+    /* add line over the text */
+    a {
+        text-decoration: overline;
+    }
+    /* add a line across the text */
+    a {
+        text-decoration: line-through;
+    }
+
+/* border - adding line on the box/container */
+    /* adding lines to all side */
+    /* border: width style color */
+    /* width - how thick the line is */
+    /* style - solid | dotted | dashed | double */
+    p {
+         border: 2px solid red;
+    }
+   
+
+/* to change the display */
+    /* display: inline | block | inline-block  */
+    li {
+        display: inline;
+    }
+
+/* width */
+    p {
+        /* width: px | % */
+        width: 500px;
+    }
+
+/* floating */
+    .children {
+        /* float: left | right; */
+        float: left;
+    }
+
+    /* if the children has float, add overflow to parents */
+    .parent {
+        overflow: auto;
+    }
+
+/* to make sure that the border will be added inside */
+    * {
+        box-sizing: border-box;
+    }
+
+/* to apply margin */
+/* padding and margin */
+    p {
+        /* margin: px | % */
+        /* 1 value --> all sides are the same*/
+        margin: 10px;
+    }
+    p {
+        /* margin: top&bottom right&left */
+        margin: 10px 5px;
+    }
+    p {
+        /* margin: top left&right bottom */
+        margin: 5px 10px 15px;
+    }
+    p {
+        /* margin: top right bottom left */
+        margin: 5px 10px 20px 15px;
+    }
+
+/* margin is the space outside the border */
+/* padding is the space inside the border */
+
+/* to change the text inside the container */
+    p {
+        text-align: right;
+        /* text-align: right | left | center; */
+    }
+
+/* for background images */
+    div {
+        background-image: url("#");
+        background-size: 50%;
+        /* background-size: % | px | cover | contain */
+        background-position: center;
+        /* background-position: center | left top | right top | right bottom | left bottom | center top | center bottom */
+    }

@@ -1,0 +1,198 @@
+<!-- <div> is like a box or container -->
+    <div></div>
+
+<!-- Different types of Headers -->
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+
+<!-- <p> means paragraph. This is a regular/normal text -->
+    <p>This is a normal text.</p>
+
+<!-- Types of List -->
+
+<!-- 1. Unordered List <ul> -->
+<!-- <li> means List Item -->
+    <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Reservation</li>
+        <li>Blog</li>
+        <li>Contact us</li>
+    </ul>
+
+<!-- 2. Ordered List <ol> -->
+    <ol>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Reservation</li>
+        <li>Blog</li>
+        <li>Contact us</li>
+    </ol>
+
+<!-- <a> anchor links. it means you can click it to go to other pages-->
+    <a href="https://www.youtube.com/">Click to go to youtube</a>
+
+    <p>This is a sample paragraph. <a href="#">Click more</a></p>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+    </ul>
+
+<!-- <hr> means horizontal rule. It is a line to separate the contents -->
+    <hr>
+
+<!-- <img> means images -->
+<!-- src="" means source. you can add the picture. Location of picture -->
+<!-- alt="" means alternative text -->
+    <img src="images/product1.jpg" alt="Photo of product: coffee beans">
+
+<!-- forms -->
+    <!-- input it is for user to type or give information -->
+    <!-- <label> name of the input-->
+    
+    <!-- <br> means break rule, to break the line -->
+    <br>
+    <!-- type="text" abc1234.!*# -->
+    <label for="fname">First Name </label>
+    <input type="text" id="fname" name="fname">
+    <br>
+    <!-- type="password" ....... -->
+    <label for="pw">Password </label>
+    <input type="password" id="pw" name="pw">
+    <br>
+    <!-- type="num" 123456789-->
+    <label for="num">Number </label>
+    <input type="number" id="num" name="num">
+    <br>
+    <!-- type="email" email@mail.com -->
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <!-- type="url" https://www.website.com -->
+    <label for="url">Website</label>
+    <input type="url" id="url" name="url">
+    <br>
+    <!-- type="date" 05/30/2020-->
+    <label for="date">Date</label>
+    <input type="date" id="date" name="date">
+    <br>
+    <!-- if you want to let the user choose one value from the options -->
+    <!-- for radio, make sure that the name="" is the same -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="secret" name="gender" value="secret">
+    <label for="secret">Secret</label>
+
+    <br>
+    <!-- checkbox, if you want users to choose one or more -->
+    <input type="checkbox" id="pink" name="color" value="pink">
+    <label for="pink">Pink</label>
+    <input type="checkbox" id="blue" name="color" value="blue">
+    <label for="blue">Blue</label>
+    <input type="checkbox" id="black" name="color" value="black">
+    <label for="black">Black</label>
+
+    <br>
+    <label for="courses">Choose your course:</label>
+    <select name="courses" id="courses">
+        <option value="basic">Web Basic</option>
+        <option value="design">Web Design</option>
+        <option value="development">Web Development</option>
+    </select>
+    <br>
+    <label for="msg">Your message: </label>
+    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" id="submit" value="Submit">
+
+<!-- two types of elements -->
+<!-- 1. Block - <p> <h1>-<h6> <ul> <ol> <li>-->
+<!-- 2. Inline - <img> <a> <label> <input>-->
+
+<!-- table -->
+<table>
+    <!-- <tr> means table row -->
+    <tr>
+        <!-- <td> means table data -->
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>4</td> 
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+</table>
+
+<!-- table with headings -->
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Mikka</td>
+        <td>Philippines</td>
+    </tr>
+    <tr>
+        <td>Hayato</td>
+        <td>Japan</td>
+    </tr>
+</table>
+
+<!-- Examples -->
+
+<!-- not the standard -->
+<P>This is a Uppercase P</P>
+
+<!-- Please use this one -->
+<p>This is a proper way of writing</p>
+
+<!-- Nesting elements -->
+<p>My name is Mikka</p>
+<!-- <strong> will make it bold -->
+<p>My name is <strong>Mikka</strong></p>
+
+<!-- another example-->
+<!-- <em> will make it italicize -->
+<p>My name is <em>Mikka</em></p>
+<p>Mikka said, <em>"I am hungry!"</em></p>
+
+<!-- This a wrong way to write a nested elements -->
+<p>My name is <strong>Mikka</p></strong>
+
+<!-- Proper way of using HTML <h1> - <h6> -->
+
+<div>
+    <h1>Main Header</h1>
+
+    <div>
+        <h2></h2>
+        <div>
+            <h3></h3>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2></h2>
+            <p></p>
+        </div>
+        <div>
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+</div>
+
